@@ -1,4 +1,4 @@
-# NYC Arrest Data Extraction, Transformation, and Loading (ETL)
+# NYC Arrest Data ETL Pipeline
 
 ## Overview
 This Python script extracts arrest data from the NYC Open Data API, performs data cleaning and transformation, and loads the transformed data into a Snowflake database. The script is designed to run as a standalone process, orchestrating the entire ETL workflow.
