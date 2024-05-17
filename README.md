@@ -8,6 +8,7 @@ This Python script extracts arrest data from the NYC Open Data API, performs dat
 - **Data Cleaning**: Cleans the raw arrest data by removing irrelevant columns, dropping rows with missing values, and replacing invalid law category codes.
 - **Data Transformation**: Converts all column names to uppercase for Snowflake compatibility.
 - **Data Loading**: Loads the cleaned and transformed data into a Snowflake table using the Snowflake Python Connector.
+- **Data Visualization**: A Metabase dashboard has been built to visualize and analyze the arrest data stored in Snowflake.
 
 ## Prerequisites
 - Python 3.x
@@ -47,9 +48,6 @@ This Python script extracts arrest data from the NYC Open Data API, performs dat
 - Customize the script according to your specific requirements by modifying the data extraction, cleaning, transformation, and loading functions.
 - Adjust the batch size and API URL as needed to optimize data extraction.
 - Ensure that the Snowflake table structure matches the cleaned and transformed data before loading.
-
-## Future Enhancements (TODO)
-- Build a Metabase dashboard to visualize and analyze the arrest data stored in Snowflake.
 
 ## License
 This project is licensed under the MIT License.
